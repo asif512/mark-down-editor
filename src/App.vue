@@ -5,20 +5,19 @@
 </template>
 
 <script>
-
-import Textarea from './components/MarkdownEditor.vue'
+import Textarea from "./components/MarkdownEditor.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   data() {
     return {
-      usernames: ['user1', 'user2', 'user3', 'user4', 'user5'],
+      usernames: ["user1", "user2", "user3"],
     };
   },
   components: {
-    Textarea
+    Textarea,
   },
-}
+};
 </script>
 
 <style>
